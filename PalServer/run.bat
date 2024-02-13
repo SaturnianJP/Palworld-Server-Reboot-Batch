@@ -1,15 +1,15 @@
 @echo off
 :loop
-echo PalServer‚ğ‹N“®‚µ‚Ü‚·...
+echo PalServerã‚’èµ·å‹•ã—ã¾ã™...
 
-REM ƒtƒ@ƒCƒ‹‚ª‘¶İ‚·‚é‚©ƒ`ƒFƒbƒN‚µ‚Ä‚¢‚Ü‚·B
+REM ãƒ•ã‚¡ã‚¤ãƒ«ãŒå­˜åœ¨ã™ã‚‹ã‹ãƒã‚§ãƒƒã‚¯ã—ã¦ã„ã¾ã™ã€‚
 if not exist PalServer.exe (
     echo Error: PalServer.exe not found.
     pause
     exit /b 1
 )
 
-REM ‚±‚±‚ÅƒvƒƒZƒX‹N“®Aˆø”‚ğ“n‚·ê‡‚Í‚±‚±‚ğ•ÒW‚µ‚Ä‚­‚¾‚³‚¢B
+REM ã“ã“ã§ãƒ—ãƒ­ã‚»ã‚¹èµ·å‹•ã€å¼•æ•°ã‚’æ¸¡ã™å ´åˆã¯ã“ã“ã‚’ç·¨é›†ã—ã¦ãã ã•ã„ã€‚
 start /wait PalServer.exe -port=8211 -players=32
 echo PalServer has crashed.
 echo Rebooting PalServer.
