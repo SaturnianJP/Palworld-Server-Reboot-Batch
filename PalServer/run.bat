@@ -1,6 +1,6 @@
 @echo off
 :loop
-echo PalServerを起動します...
+echo Rebooting PalServer.
 
 REM ファイルが存在するかチェックしています。
 if not exist PalServer.exe (
@@ -12,6 +12,5 @@ if not exist PalServer.exe (
 REM ここでプロセス起動、引数を渡す場合はここを編集してください。
 start /wait PalServer.exe -port=8211 -players=32
 echo PalServer has crashed.
-echo Rebooting PalServer.
 goto loop
 
