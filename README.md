@@ -7,4 +7,4 @@ PalServer.exeが存在しているフォルダの中に入れてください。
 もし開放するポートを変更する場合はrun.bat内の **-port=8211** を編集してください。
 
 ![image](https://github.com/SaturnianJP/Palworld-Server-Reboot-Batch/assets/126487136/e3e337f1-94e2-43ab-ac55-c944493dbb78)
-以下Batchのスクショ
+
